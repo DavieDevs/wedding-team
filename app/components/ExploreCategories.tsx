@@ -11,7 +11,10 @@ export default function ExploreCategories() {
         </h3>
       </div>
 
-      <div className="flex flex-row p-4 gap-4">
+      <div
+        className="flex flex-row justify-center items-center gap-4 flex-wrap sm:flex-nowrap
+ p-4 m-auto"
+      >
         {vendors.map((item) => (
           <CategoryCard
             key={item.title}
