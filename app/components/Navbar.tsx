@@ -15,7 +15,7 @@ export default function Navbar() {
           Log In
         </Link>
         <Link href="/signup" className="text-brand px-4">
-          Join as a Vendor
+          Sign Up
         </Link>
       </div>
     </nav>
