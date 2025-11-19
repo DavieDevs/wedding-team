@@ -2,7 +2,7 @@ import HeroSearch from "./HeroSearch";
 
 export default function Hero() {
   return (
-    <section className="relative h-[80vh] w-full overflow-hidden">
+    <section className="relative h-[40vh] w-full overflow-hidden">
       {/* Background video */}
       <video
         src="/parallaxclips.mp4"
