@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   title: "Wedding Team | Find Your Wedding Vendors",
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-slate-950 text-slate-100">
         <Navbar />
         <div className="">{children}</div>
+        <Footer />
       </body>
     </html>
   );
