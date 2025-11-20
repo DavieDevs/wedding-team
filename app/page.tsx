@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import ExploreCategories from "./components/ExploreCategories";
 import Banner from "./components/Banner";
+import RealWeddingTeamSection from "./components/RealWeddingTeamSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <ExploreCategories />
       <Banner />
+      <RealWeddingTeamSection />
     </div>
   );
 }
