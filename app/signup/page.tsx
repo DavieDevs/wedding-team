@@ -49,7 +49,7 @@ export default function SignupPage() {
   };
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-white pr-4 gap-4">
+    <main className="min-h-screen flex items-center justify-between bg-white p-4 md:p-0 md:pr-4 gap-4">
       <div className="hidden md:block relative w-1/2 h-screen">
         <Image
           src="/images/wt-auth.jpg"
@@ -59,7 +59,7 @@ export default function SignupPage() {
         />
       </div>
 
-      <div className="w-1/2 max-w-md bg-white border border-slate-200 rounded-2xl p-8 shadow-lg">
+      <div className="w-full md:w-1/2 max-w-lg bg-white border border-slate-200 m-auto rounded-2xl p-8 shadow-lg">
         <h1 className="text-2xl font-semibold text-black mb-2 text-center">
           Create your Wedding Team account
         </h1>
